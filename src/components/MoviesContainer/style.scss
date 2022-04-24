@@ -1,0 +1,10 @@
+@use '../../theme/main.scss' as v;
+
+.gj-Movie-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid v.$dark_blue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px 35px;
+}

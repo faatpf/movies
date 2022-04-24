@@ -1,0 +1,11 @@
+@use '../../theme/main.scss' as v;
+
+.gj-text-input__label{
+    margin-right: 5px;
+}
+
+.gj-text-input input {
+    border: 2px solid v.$ocean_blue;
+    border-radius: 30px;
+    padding: 5px;
+}

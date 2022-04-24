@@ -1,0 +1,15 @@
+@use '../../theme/main.scss' as v;
+
+.gj-btn {
+  border: 2px solid v.$light_blue ;
+  border-radius: 30px;
+  padding: 5px 10px;
+  background: none;
+}
+
+.gj-btn__title {
+  font-family: Josefin;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+}

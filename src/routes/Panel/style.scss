@@ -1,0 +1,17 @@
+@use '../../theme/main.scss' as v;
+@import url('../../theme/main.scss');
+
+
+.gj-panel__header {
+    font-family: Josefin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 80px;
+    background: v.$light_blue;
+    margin-bottom: 30px;
+    border-radius: 0 0 25px 25px;
+}
+.gj-panel__btn{
+    border-color: v.$dark_blue;
+}

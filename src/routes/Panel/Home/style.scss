@@ -1,0 +1,22 @@
+@use '../../../theme/main.scss' as v;
+
+.gj-home {
+  padding: 0 50px;
+}
+
+.gj-home__heading {
+  margin-bottom: 50px;
+  color: v.$dark_blue;
+}
+
+.gj-home__rating{
+  margin-bottom: 35px;
+}
+
+.gj-home__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 20px;
+}

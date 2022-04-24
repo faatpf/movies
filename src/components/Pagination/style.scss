@@ -1,0 +1,38 @@
+@use '../../theme/main.scss' as v;
+
+.gj-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gj-pagination__btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.gj-pagination__item-wrapper {
+  display: flex;
+  align-items: center;
+  border: 2px solid v.$light_blue;
+  border-radius: 10px;
+}
+
+.gj-pagination__page-item {
+  margin:0 10px;
+}
+
+.gj-pagination__page-item--selected{
+    background-color: v.$dark_blue;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
